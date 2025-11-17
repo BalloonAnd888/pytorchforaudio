@@ -56,9 +56,7 @@ if __name__ == "__main__":
 
     usd = UrbanSoundDataset(ANNOTATIONS_FILE, AUDIO_DIR, mel_spectrogram, SAMPLE_RATE)
     print(f"There are {len(usd)} samples in the dataset.")
-    # signal, label = usd[0]
-
-
+    signal, label = usd[0]
 
     # print("Initializing soundata...")
     # dataset = soundata.initialize('urbansound8k')
