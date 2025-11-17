@@ -6,7 +6,7 @@ from urbansounddataset import UrbanSoundDataset
 from cnn import CNNNetwork
 
 BATCH_SIZE = 128
-EPOCHS = 10
+EPOCHS = 1 #10
 LEARNING_RATE = .001
 
 ANNOTATIONS_FILE = "C:/Users/alau2/Documents/datasets/UrbanSound8K/metadata/UrbanSound8K.csv"
